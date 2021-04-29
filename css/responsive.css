@@ -1,0 +1,23 @@
+@media only screen and (min-width: 780px) {
+	.register-block, .login_label{
+		width: 40%;
+		display: block;margin:auto;
+	}
+	.login_label{
+		margin-top: 10%;
+		width: 36%;
+	}
+}
+@media only screen and (max-width: 780px) {
+	.register-block{
+		padding-top: 15%;
+	}
+	.form_heading{
+		padding-top: 10%;
+	}
+	.login_label{
+		margin:25% auto auto;
+		width: 90%;
+		padding: 5%;
+	}
+}
