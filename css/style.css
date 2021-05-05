@@ -1,8 +1,8 @@
 body{
-   text-align:center;
-	/*background: linear-gradient(to top right, #007991 0%, #78ffd6 100%);*/
-	background-color: #007991;
-	color: white;
+ text-align:center;
+ /*background: linear-gradient(to top right, #007991 0%, #78ffd6 100%);*/
+ background-color: #007991;
+ color: white;
 }
 *{
 	font-family: 'Parisienne', cursive;
@@ -14,33 +14,35 @@ body{
 	padding-top: 5%;
 }
 .register-block form input {
-     width: 90%;
-     padding: 0 20px;
-     line-height: 50px;
-     height: 65px;
-     margin-bottom: 15px;
-     background-color: white;
-     /*border: 2px solid #e6e6e6;*/
-     border:none;
-     border-bottom-width: 3px;
-     border-radius: 5px;
-     outline: 0;
-     -webkit-transition: all 0.3s ease;
-     transition: all 0.3s ease;
-   }
+ width: 90%;
+ padding: 0 20px;
+ line-height: 50px;
+ height: 65px;
+ margin-bottom: 15px;
+ background-color: white;
+ /*border: 2px solid #e6e6e6;*/
+ border:none;
+ border-bottom-width: 3px;
+ border-radius: 5px;
+ outline: 0;
+ -webkit-transition: all 0.3s ease;
+ transition: all 0.3s ease;
+}
 footer{
 	position: absolute;
-    bottom: 0;
-    /*left: 32%;*/
-    left: 0;
-    right: 0;
-    /*top: 0;*/
-    margin:auto;
+  bottom: 0;
+  /*left: 32%;*/
+  left: 0;
+  right: 0;
+  /*top: 0;*/
+  margin:auto;
 }
 footer a{
 	color:#fff;
 }
-
+input:focus::placeholder {
+  color: transparent;
+}
 
 /*Login form*/
 .login_label{
@@ -51,10 +53,70 @@ footer a{
 	color:#000;
 }
 .login-block form input {
-   text-align: center;
-   margin-bottom: 10%;
+ text-align: center;
+ margin-bottom: 10%;
 }
 .login-block .btn{
 	margin-right: 3%;
 
+}
+
+/*Order placements*/
+.mission{
+  padding: 2%;
+  margin: 5% 3%;
+  border:1px solid white;
+}
+.mission .col-3, .mission .col-9{
+  display: block;
+  margin:auto;
+}
+.mission p{
+  margin-bottom: 0;
+}
+.mission img{
+  width: 50px;
+}
+#search_bar {
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+#search_bar .search_icon_image {
+  height: 24px;
+  position: absolute;
+  /*transform: rotate(20deg);*/
+  right: 30px;
+  top: 12px;
+}
+#search {
+  display: block;
+  border: 1px solid #aaa;
+  font-size: 16px;
+  padding: 10px 10px;
+  width: 90%;
+  margin: auto;
+  background: #fff;
+  padding-left: 40px;
+  border-radius: 20px;
+  outline: none !important;
+  box-sizing: border-box;
+}
+#autocomplete_holder {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hotel_individual{
+  margin: 3%;
+  border: 1px solid;
+  padding: 2%;
+}
+.hotel_individual h4{
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5%;
 }

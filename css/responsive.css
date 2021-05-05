@@ -7,6 +7,12 @@
 		margin-top: 10%;
 		width: 36%;
 	}
+	#search_bar .search_icon_image{
+		right: 50px;
+	}
+	.hotel_individual h4{
+		padding-bottom: 1%;
+	}
 }
 @media only screen and (max-width: 780px) {
 	.register-block{
